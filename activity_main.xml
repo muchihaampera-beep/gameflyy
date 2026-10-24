@@ -1,0 +1,11 @@
+<LinearLayout xmlns:android="http://android.com" android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical" android:padding="16dp" android:background="#121212">
+<TextView android:id="@+id/tvStatus" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textColor="#FFFFFF" android:text="Status: Ready" android:textSize="18sp" android:layout_marginBottom="8dp"/>
+<TextView android:id="@+id/tvRam" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textColor="#FFFFFF" android:text="RAM: Checking..." android:layout_marginBottom="8dp"/>
+<TextView android:id="@+id/tvSuhu" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textColor="#FFFFFF" android:text="Suhu: 0°C" android:layout_marginBottom="8dp"/>
+<TextView android:id="@+id/tvNetwork" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textColor="#FFFFFF" android:text="Ping: 0ms" android:layout_marginBottom="8dp"/>
+<TextView android:id="@+id/tvSelectedGame" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textColor="#FFFFFF" android:text="Belum memilih game" android:layout_marginBottom="16dp"/>
+<Spinner android:id="@+id/spinnerGame" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="16dp"/>
+<Button android:id="@+id/btnBoost" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="BOOST NOW" android:backgroundTint="#00E676" android:textColor="#000000" android:layout_marginBottom="8dp"/>
+<Button android:id="@+id/btnOpenWA" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="BUKA WHATSAPP" android:backgroundTint="#25D366" android:textColor="#FFFFFF" android:layout_marginBottom="16dp"/>
+<LinearLayout android:id="@+id/panelFitur" android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:padding="8dp" android:background="#1E1E1E"> </LinearLayout>
+</LinearLayout>
